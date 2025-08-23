@@ -46,7 +46,7 @@ nav button {
   align-items: center;
 }
 
-p {
+footer p {
   color: black
 }
 
@@ -67,16 +67,22 @@ p {
 
 footer {
   display: flex;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(180deg 17.24% 94.31%);
   justify-content: center;
-
+  align-items: center;
+  flex-direction: column;
 }
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 5em;
   margin-bottom: 1em;
   background-color: white;
 
+}
+
+p {
+  color: yellow;
+  margin-top: 1px;
 }
