@@ -8,6 +8,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 3em;
+  padding: 0 2vw;
 }
 
 
@@ -22,6 +23,11 @@ nav h1 {
   margin-right: 5vw;
   color: white;
   font-weight: 100;
+}
+
+main {
+  padding: 0 10vw;
+  gap: 1em;
 }
 
 main h2 {
@@ -55,14 +61,18 @@ footer p {
 }
 
 .mini-font {
+  color: yellow;
   font-size: 10px;
 }
 
 .button-blue {
   background-color: rgb(28 75 196);
   color: white;
-  padding: 2px;
-  border-radius: 8px
+  padding: 1em 0.5em;
+  border-radius: 8px;
+  border: none;
+
+
 }
 
 footer {
@@ -77,12 +87,14 @@ section {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5em;
-  margin-bottom: 1em;
   background-color: white;
-
+  padding: 3em 0
 }
 
 p {
-  color: yellow;
   margin-top: 1px;
+}
+
+.gap-3 {
+  gap: 1rem;
 }
